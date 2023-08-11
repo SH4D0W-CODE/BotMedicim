@@ -1,0 +1,11 @@
+[import](common.lg)
+
+# SendActivity_Greeting_text()
+- Hola soy Baymax soy tu asistente medico personal, en que te puedo ayudar hoy?
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Lo siento, no entiendo tu pregunta.

@@ -1,0 +1,46 @@
+[import](common.lg)
+
+# TextInput_Prompt_8q5OLx()
+[HeroCard 
+title = Asistente Medico
+ subtitle = Hola Baymax 👋
+ text = Soy Baymax tu asistente medico personal, en que te puedo ayudar hoy
+ images = https://1.bp.blogspot.com/-jOd6Bc1b68M/YJzXngNHEpI/AAAAAAADwMA/1U_d2C6a0kkmNTu5u9moixLgk2P4s1HmwCLcBGAsYHQ/s800/mj1.jp
+ text = Si quieres un informe medico presiona el boton.
+ buttons = ¿Necesitas informaciòn sobre un medicamento?
+]
+# TextInput_Prompt_wLtJVH()
+[HeroCard 
+title = PARACETAMOL
+images = https://colegioruzafa.com/wp-content/uploads/Imagen1-1.png
+ text = El PARACETAMOL es un analgésico y antipirético eficaz para el control del dolor leve o moderado causado por afecciones articulares, otalgias, cefaleas, dolor odontogénico, neuralgias, procedimientos quirúrgicos menores etc.
+ buttons = Necesito informaciòn sobre otro medicamento
+]
+# TextInput_Prompt_TCrsqo()
+[HeroCard 
+title = ANTALGINA
+images = https://s3.amazonaws.com/bsalemarket/65988/product/MEDTEV71719medtev71719.jpg
+text = La ANTALGINA se toman contra dolores y fiebres altas. Antalgina® Tabletas contienen el principio activo metamizol sódico monohidrato y son un medicamento analgésico y antipirético del grupo de las pirazolonas.
+buttons = Necesito un informaciòn sobre otro medicamento
+]
+# TextInput_Prompt_u1gnVg()
+[HeroCard 
+title = OMEPROZOL
+images = https://www.farmalisto.com.pe/18708/omeprazol-20-mg-caja-con-100-capsulas.jpg
+text = Omeprazol es un inhibidor de la bomba de protones, que actúa sobre las células de la mucosa gástrica, inhibiendo hasta un 80% la secreción de ácido clorhídrico, mediante la inhibición de la salida de protones en la bomba H⁺/K⁺- ATPasa de las células parietales de la pared gástrica.
+buttons = Necesito informaciòn sobre otro medicamento
+]
+# TextInput_Prompt_bJuW7j()
+[HeroCard 
+title = IBUPROFENO
+images = https://www.hogarysalud.com.pe/wp-content/uploads/2021/03/75241-C1.jpg
+text = El ibuprofeno es un antiinflamatorio no esteroideo, utilizado frecuentemente como antipirético, analgésico y antiinflamatorio.
+buttons = Necesito informaciòn sobre otro medicamento
+]
+# SendActivity_SOWcjT()
+[Activity
+    Text = ${SendActivity_SOWcjT_text()}
+]
+
+# SendActivity_SOWcjT_text()
+- Ya no tengo mas informaciòn en mi BD.
